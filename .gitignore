@@ -1,0 +1,78 @@
+# AI-Native Business Workbench — public repository boundary
+# IMPORTANT: Git ignore rules do not untrack previously committed files.
+
+# Local Agent discipline and task guides (private)
+/[Aa][Gg][Ee][Nn][Tt][Ss].md
+/.agents/
+
+# Internal documentation stays in docs/ locally.
+# Only PUBLIC screenshots & concept images in docs/public/ are tracked.
+/docs/**
+!/docs/public/
+!/docs/public/**/
+!/docs/public/**/*.png
+!/docs/public/**/*.jpg
+!/docs/public/**/*.jpeg
+!/docs/public/**/*.webp
+!/docs/public/**/*.svg
+!/docs/public/**/*.gif
+!/docs/public/**/*.avif
+
+# Self-governance / workspace-local runtime data (including legacy typo)
+**/.ainbw/
+**/.anbw/
+
+# Secrets & machine-local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.credentials.json
+secrets/
+
+# App/build outputs and caches
+**/node_modules/
+**/dist/
+**/build/
+**/out/
+**/coverage/
+**/.next/
+**/.vite/
+**/.turbo/
+**/.cache/
+**/vendor/
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local databases, temporary journals and generated indexes
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+
+# Python helpers and test environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDE-local settings
+.idea/
+.vscode/

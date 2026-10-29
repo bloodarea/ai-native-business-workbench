@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="530" viewBox="0 0 1120 530" role="img" aria-labelledby="title desc">
+<title id="title">AI-Native Business Workbench conceptual architecture</title>
+<desc id="desc">Electron and Web connect to an independent Go microkernel which uses local workspace data, domain plugins and authorized external adapters.</desc>
+<rect x="0" y="0" width="1120" height="530" rx="18" fill="#0c1424"/>
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+<text x="560" y="48" font-size="25" font-weight="700" fill="#f2f6fd">AI-Native Business Workbench</text>
+<text x="560" y="76" font-size="14" fill="#aabbd3">Domain-neutral core · Domain plugins · Human + Agent access</text>
+<rect x="112" y="104" width="406" height="85" rx="13" fill="#172941" stroke="#476887" stroke-width="1.5"/>
+<text x="315" y="140" font-size="20" font-weight="700" fill="#f2f6fd">Electron Desktop</text>
+<text x="315" y="166" font-size="14" fill="#afc7df">Human workspace view</text>
+<rect x="602" y="104" width="406" height="85" rx="13" fill="#172941" stroke="#476887" stroke-width="1.5"/>
+<text x="805" y="140" font-size="20" font-weight="700" fill="#f2f6fd">Web Browser</text>
+<text x="805" y="166" font-size="14" fill="#afc7df">Same React UI + API</text>
+<path d="M315 189 V212 H560 M805 189 V212 H560 V235" fill="none" stroke="#80bbdf" stroke-width="2.5"/>
+<rect x="285" y="235" width="550" height="112" rx="15" fill="#21465a" stroke="#76d3c5" stroke-width="2"/>
+<text x="560" y="274" font-size="23" font-weight="700" fill="#ffffff">Go Microkernel</text>
+<text x="560" y="302" font-size="15" fill="#d3f3ee">Workspace · Data · Events · Permissions · Evidence</text>
+<text x="560" y="324" font-size="14" fill="#bcdfdb">API · AI capability gateway · Plugin contracts</text>
+<path d="M560 347 V372 M340 372 H780 M340 372 V395 M780 372 V395" fill="none" stroke="#80bbdf" stroke-width="2.5"/>
+<rect x="112" y="395" width="460" height="94" rx="13" fill="#172941" stroke="#476887" stroke-width="1.5"/>
+<text x="342" y="430" font-size="19" font-weight="700" fill="#f2f6fd">Local Workspace Data</text>
+<text x="342" y="459" font-size="14" fill="#afc7df">SQLite · Files · Provenance · Evidence</text>
+<rect x="605" y="395" width="403" height="94" rx="13" fill="#172941" stroke="#476887" stroke-width="1.5"/>
+<text x="807" y="430" font-size="19" font-weight="700" fill="#f2f6fd">Business Plugins</text>
+<text x="807" y="459" font-size="14" fill="#afc7df">Software Development first; others later</text>
+<text x="560" y="514" font-size="13" fill="#96aac5">Authorized access adapters: CLI · MCP · Agent Skills · Harness integrations (planned)</text>
+</g>
+</svg>
