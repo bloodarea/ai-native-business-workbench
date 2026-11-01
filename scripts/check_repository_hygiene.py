@@ -23,6 +23,8 @@ def prohibited(path: str) -> bool:
         return True
     if any(part.lower() in {".ainbw", ".anbw"} for part in parts):
         return True
+    if parts and parts[0].lower() == "references":
+        return True
     if low.startswith("docs/"):
         return not (low.startswith("docs/public/") and Path(low).suffix in IMAGE_SUFFIXES)
     if name.startswith(".env") and not name.endswith(".example"):

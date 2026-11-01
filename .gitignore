@@ -15,11 +15,12 @@ bin/
 !.env.example
 
 # Local-only / internal materials. Must never reach the public repository.
-# Mirrors scripts/check_repository_hygiene.py: AGENTS.md, .agents/, .ainbw/ and
-# everything under docs/ except published images in docs/public/.
+# Mirrors scripts/check_repository_hygiene.py: AGENTS.md, .agents/, .ainbw/,
+# references/ and everything under docs/ except published images in docs/public/.
 AGENTS.md
 .agents/
 .ainbw/
+/references/
 docs/*
 !docs/public/
 output/
