@@ -1,0 +1,26 @@
+{
+  "id": "ainbw.software-development",
+  "name": "软件研发",
+  "version": "0.2.0",
+  "kind": "business",
+  "status": "builtin",
+  "permissions": [
+    "workspace.read",
+    "workspace.write"
+  ],
+  "contributions": {
+    "views": [
+      "overview",
+      "requirements",
+      "tasks",
+      "governance"
+    ],
+    "services": [],
+    "schemas": [
+      "requirement",
+      "task"
+    ],
+    "sdk": [],
+    "adapters": []
+  }
+}

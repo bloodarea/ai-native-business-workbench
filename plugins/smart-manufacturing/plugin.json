@@ -1,0 +1,18 @@
+{
+  "id": "ainbw.smart-manufacturing",
+  "name": "智能制造",
+  "version": "0.1.0",
+  "kind": "business",
+  "status": "planned",
+  "permissions": [],
+  "contributions": {
+    "views": [
+      "overview",
+      "assets"
+    ],
+    "services": [],
+    "schemas": [],
+    "sdk": [],
+    "adapters": []
+  }
+}

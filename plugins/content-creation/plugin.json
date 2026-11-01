@@ -1,0 +1,18 @@
+{
+  "id": "ainbw.content-creation",
+  "name": "自媒体运营",
+  "version": "0.1.0",
+  "kind": "business",
+  "status": "planned",
+  "permissions": [],
+  "contributions": {
+    "views": [
+      "overview",
+      "calendar"
+    ],
+    "services": [],
+    "schemas": [],
+    "sdk": [],
+    "adapters": []
+  }
+}

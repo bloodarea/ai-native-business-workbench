@@ -1,0 +1,25 @@
+{
+  "id": "ainbw.3d-workspace",
+  "name": "三维工作空间",
+  "version": "0.1.0",
+  "kind": "integration",
+  "status": "planned",
+  "permissions": [],
+  "contributions": {
+    "views": [
+      "3d-viewer"
+    ],
+    "services": [
+      "scene.render"
+    ],
+    "schemas": [
+      "scene"
+    ],
+    "sdk": [
+      "@ainbw/3d-sdk"
+    ],
+    "adapters": [
+      "blender"
+    ]
+  }
+}

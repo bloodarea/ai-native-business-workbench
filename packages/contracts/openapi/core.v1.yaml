@@ -1,0 +1,39 @@
+openapi: 3.0.3
+info:
+  title: AINBW Core API
+  version: 0.2.0
+servers:
+  - url: http://127.0.0.1:4177/api/v1
+paths:
+  /health:
+    get:
+      summary: Go Core health
+      responses:
+        '200': { description: Healthy }
+  /plugins:
+    get:
+      summary: Discover manifests (no arbitrary code execution)
+      responses:
+        '200': { description: Available plugin manifests }
+  /capabilities:
+    get:
+      summary: Read official capability registry
+      responses:
+        '200': { description: Registered capabilities }
+  /project-tree:
+    get:
+      summary: Read persisted project categories
+      responses:
+        '200': { description: Project tree }
+    put:
+      summary: Replace project tree (bootstrap implementation)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '../schemas/project-tree.schema.json'
+      responses:
+        '200': { description: Updated }
+        '400': { description: Invalid input }
+        '403': { description: Origin not allowed }
